@@ -43,7 +43,7 @@ streamlit.dataframe(fruityvice_normalized)
 
 
 add_my_fruit = streamlit.text_input('What fruit would you like to add?','jackfruit')
-streamlit.write('thanks for adding jackfruit')
+streamlit.write('Thanks for adding jackfruit', add_my_fruit)
 
 
 import snowflake.connector
